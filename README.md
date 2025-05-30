@@ -1,12 +1,12 @@
-**Vendor Raise**
+## Vendor Raise
 
 Vendor Raise is a community-driven web platform that connects small business owners (vendors) with local lenders who are willing to provide small-scale financial support. This project is built for HackVortex 2025 – FinTech domain.
 
-**Project Idea**
+## Project Idea
 
 Many vendors and small shop owners struggle to access funds from banks due to strict policies or lack of documents. Vendor Raise solves this by connecting them directly with community lenders willing to provide small loans with flexible terms.
 
-**Website Features**
+## Website Features
  
 Landing Page (index.html) – Introduction to the platform.
 
@@ -47,7 +47,7 @@ Vendors can raise funding requests.
 Lenders can browse and respond to requests.
 
 
-**Why Vendor Raise is Unique**
+## Why Vendor Raise is Unique
 
 Vendor Raise is special because it focuses on helping small shop owners and street vendors who usually don’t get support from banks. Unlike other platforms made for big businesses, this is a simple, community-based website where local lenders can connect directly with vendors. It doesn’t need heavy paperwork or high-tech skills. The platform is easy to use, supports local growth, and allows users to search based on loan type or location. Vendor Raise builds trust between real people and helps vendors raise money quickly, making it a unique solution for financial help at the community level.
 
@@ -80,9 +80,16 @@ It was hard to show real interaction between vendors and lenders without backend
 - Secure user authentication with OTP/email verification.
 - Use AI to match vendors with best-fit lenders.
 
+## How to Run the Project
+
+1. Download or clone this repository.
+2. Open the `index.html` file in your browser.
+3. Navigate through the site using the links to explore features.
+
+No backend or database is used, so login/registration are static pages only.
 
 
-**Team Info**
+## Team Info
 
 Team Name: Vendor Raise
 
