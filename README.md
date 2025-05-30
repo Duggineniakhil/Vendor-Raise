@@ -47,9 +47,26 @@ Vendors can raise funding requests.
 Lenders can browse and respond to requests.
 
 
-**Unique Value**
+**Why Vendor Raise is Unique**
 
-Unlike other platforms, Vendor Raise focuses on local micro-lending and building trust-based community funding. We make lending simpler, faster, and more personalized for small vendors.
+Vendor Raise is special because it focuses on helping small shop owners and street vendors who usually don’t get support from banks. Unlike other platforms made for big businesses, this is a simple, community-based website where local lenders can connect directly with vendors. It doesn’t need heavy paperwork or high-tech skills. The platform is easy to use, supports local growth, and allows users to search based on loan type or location. Vendor Raise builds trust between real people and helps vendors raise money quickly, making it a unique solution for financial help at the community level.
+
+**Problems I Faced**
+
+   **While building Vendor Raise, I faced some challenges:**
+
+   **No Backend Used**
+I didn’t use any backend, so I couldn’t store user data like login details or loan requests. Everything is just on the frontend for now.
+
+   **Limited AI Usage**
+I used AI only a little — for writing content.
+
+    **Time Limit**
+I had less time, so I focused on design and pages instead of full functionality.
+
+     **Connecting Users**
+It was hard to show real interaction between vendors and lenders without backend or real data.
+
 
 **Team Info**
 
