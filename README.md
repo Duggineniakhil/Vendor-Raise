@@ -46,7 +46,6 @@ Vendors can raise funding requests.
 
 Lenders can browse and respond to requests.
 
-(Upcoming) A smart search/filter system to find suitable matches.
 
 **Unique Value**
 
