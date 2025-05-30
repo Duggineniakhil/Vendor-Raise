@@ -72,6 +72,16 @@ I had less time, so I focused on design and pages instead of full functionality.
 It was hard to show real interaction between vendors and lenders without backend or real data.
 
 
+## Future Improvements
+
+- Add backend using Node.js and MongoDB for real login and data storage.
+- Create real-time chat between vendors and lenders.
+- Add filtering/search functionality for location, loan type, amount.
+- Secure user authentication with OTP/email verification.
+- Use AI to match vendors with best-fit lenders.
+
+
+
 **Team Info**
 
 Team Name: Vendor Raise
