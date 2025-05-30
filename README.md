@@ -91,7 +91,7 @@ No backend or database is used, so login/registration are static pages only.
 
 ## Team Info
 
-Team Name: Vendor Raise
+Team Name: CREED
 
 Team Leader: Akhil Duggineni
 📞 +91 90328 55330
