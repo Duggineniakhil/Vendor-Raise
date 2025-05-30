@@ -102,3 +102,14 @@ Member: Kuchipudi Yokshith Sai Ram Chowdary
 📞 +91 81792 94116
 📧 chowdaryk399@gmail.com
 🎓 Amrita Vishwa Vidyapeetham, Coimbatore
+
+## Home page
+![image](https://github.com/user-attachments/assets/f63dce16-be43-43dc-8cd5-aa45ebcb95bd)
+
+## Vendor Dashboard
+![image](https://github.com/user-attachments/assets/b88e14b4-375c-48d2-bfd1-67b5a274fa33)
+
+## Lendor Dashboard
+
+
+
