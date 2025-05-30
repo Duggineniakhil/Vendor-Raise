@@ -110,6 +110,7 @@ Member: Kuchipudi Yokshith Sai Ram Chowdary
 ![image](https://github.com/user-attachments/assets/b88e14b4-375c-48d2-bfd1-67b5a274fa33)
 
 ## Lendor Dashboard
+![image](https://github.com/user-attachments/assets/f2ab5f6d-41f9-4947-b0bd-48f60a7cadc5)
 
 
 
