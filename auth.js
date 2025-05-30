@@ -129,6 +129,12 @@ if (lenderRegisterForm) {
         window.location.href = 'lender-dash.html';
     });
 }
+document.getElementById("lenderRegisterForm").addEventListener("submit", function (e) {
+    e.preventDefault(); // prevent actual submission
+    // add validation if needed
+    window.location.href = "lendor-dash.html"; // redirect to dashboard
+});
+
 
 // Vendor Login Form
 const vendorLoginForm = document.getElementById('vendorLoginForm');
