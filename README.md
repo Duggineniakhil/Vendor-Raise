@@ -56,15 +56,19 @@ Vendor Raise is special because it focuses on helping small shop owners and stre
    **While building Vendor Raise, I faced some challenges:**
 
    **No Backend Used**
+   
 I didn’t use any backend, so I couldn’t store user data like login details or loan requests. Everything is just on the frontend for now.
 
    **Limited AI Usage**
+   
 I used AI only a little — for writing content.
 
-    **Time Limit**
+   **Time Limit**
+   
 I had less time, so I focused on design and pages instead of full functionality.
 
-     **Connecting Users**
+   **Connecting Users**
+   
 It was hard to show real interaction between vendors and lenders without backend or real data.
 
 
