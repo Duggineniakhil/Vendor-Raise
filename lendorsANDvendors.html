@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Lenders & Vendors</title>
+    <link rel="stylesheet" href="lendorsANDvendors.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <ul class="nav-links">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="lendorsANDvendors.html" id="findLendersVendors" class="active">Find Lenders/Vendors</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Find Lenders & Vendors</h1>
+        
+        <div class="tabs">
+            <div class="tab active" data-tab="all">All</div>
+            <div class="tab" data-tab="vendors">Vendors</div>
+            <div class="tab" data-tab="lenders">Lenders</div>
+        </div>
+        
+        <div class="search-section">
+            <form id="searchForm" class="search-form">
+                <div class="form-group">
+                    <label for="searchType">I'm looking for:</label>
+                    <select id="searchType">
+                        <option value="all">All</option>
+                        <option value="vendors">Vendors</option>
+                        <option value="lenders">Lenders</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="businessType">Business Type:</label>
+                    <select id="businessType">
+                        <option value="all">All Types</option>
+                        <optgroup label="Vendor Types">
+                            <option value="catering">Catering</option>
+                            <option value="venue">Venue</option>
+                            <option value="photography">Photography</option>
+                            <option value="florist">Florist</option>
+                            <option value="entertainment">Entertainment</option>
+                        </optgroup>
+                        <optgroup label="Lender Types">
+                            <option value="personal">Personal Loans</option>
+                            <option value="business">Business Loans</option>
+                            <option value="mortgage">Mortgage</option>
+                            <option value="equipment">Equipment Financing</option>
+                        </optgroup>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="location">Location (optional):</label>
+                    <input type="text" id="location" placeholder="City or ZIP code">
+                </div>
+                
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        
+        <div id="resultsSection" class="results-section">
+            <h2>Search Results</h2>
+            <div id="resultsContainer" class="results-grid"></div>
+            <div id="noResults" class="no-results" style="display: none;">
+                <p>No results found matching your criteria.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vendor Raise. All rights reserved.</p>
+    </footer>
+
+    <script src="lendorsANDvendors.js"></script>
+</body>
+</html>

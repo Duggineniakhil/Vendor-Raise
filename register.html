@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register with Vendor Raise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Vendor Raise</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html" class="active">Register</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="lendorsANDvendors.html" id="findLendersVendors">Find Lenders/Vendors</a></li>
+                </ul>
+                <div class="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="auth-section">
+        <div class="container">
+            <div class="auth-tabs">
+                <button class="tab-btn active" data-tab="vendor-register">Vendor Registration</button>
+                <button class="tab-btn" data-tab="lender-register">Lender Registration</button>
+            </div>
+            
+            <div class="auth-form active" id="vendor-register">
+                <h2>Vendor Registration</h2>
+                <form id="vendorRegisterForm">
+                    <div class="form-group">
+                        <label for="vendor-name">Business Name</label>
+                        <input type="text" id="vendor-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="vendor-email">Email</label>
+                        <input type="email" id="vendor-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="vendor-password">Password</label>
+                        <input type="password" id="vendor-password" required minlength="8">
+                    </div>
+                    <div class="form-group">
+                        <label for="vendor-confirm-password">Confirm Password</label>
+                        <input type="password" id="vendor-confirm-password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="vendor-business-type">Business Type</label>
+                        <select id="vendor-business-type" required>
+                            <option value="">Select Business Type</option>
+                            <option value="retail">Retail</option>
+                            <option value="food">Food & Beverage</option>
+                            <option value="service">Service</option>
+                            <option value="manufacturing">Manufacturing</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" href="vendor-dash.html">Register</button>
+                </form>
+                <p class="auth-switch">Already have an account? <a href="login.html">Login</a></p>
+            </div>
+            
+            <div class="auth-form" id="lender-register">
+                <h2>Lender Registration</h2>
+                <form id="lenderRegisterForm">
+                    <div class="form-group">
+                        <label for="lender-name">Full Name</label>
+                        <input type="text" id="lender-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lender-email">Email</label>
+                        <input type="email" id="lender-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lender-password">Password</label>
+                        <input type="password" id="lender-password" required minlength="8">
+                    </div>
+                    <div class="form-group">
+                        <label for="lender-confirm-password">Confirm Password</label>
+                        <input type="password" id="lender-confirm-password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lender-type">Lender Type</label>
+                        <select id="lender-type" required>
+                            <option value="">Select Lender Type</option>
+                            <option value="individual">Individual</option>
+                            <option value="organization">Organization</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" href="lendor-dash.html">Register</button>
+                </form>
+                <p class="auth-switch">Already have an account? <a href="login.html">Login</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Vendor Raise</h3>
+                    <p>Bridging the gap between small businesses and local lenders.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Vendor Raise. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="auth.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

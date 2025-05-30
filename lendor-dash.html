@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lender Dashboard | Vendor Raise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Vendor Raise</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="lendorsANDvendors.html" id="findLendersVendors">Find Lenders/Vendors</a></li>
+                </ul>
+                <div class="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <div class="container">
+            <div class="dashboard-header">
+                <h2>Lender Dashboard</h2>
+                <p>Welcome back, <span id="lender-name">Lender Name</span></p>
+            </div>
+            
+            <div class="dashboard-grid">
+                <div class="dashboard-card main-card">
+                    <h3>Available Vendor Requests</h3>
+                    <div class="vendor-requests" id="vendor-requests">
+                        <!-- Will be populated by JavaScript -->
+                        <p class="empty-state">No available vendor requests at this time</p>
+                    </div>
+                </div>
+                
+                <div class="dashboard-card">
+                    <h3>Your Investments</h3>
+                    <div class="investments" id="lender-investments">
+                        <!-- Will be populated by JavaScript -->
+                        <p class="empty-state">You haven't funded any loans yet</p>
+                    </div>
+                </div>
+                
+                <div class="dashboard-card">
+                    <h3>Investment Statistics</h3>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4>Total Invested</h4>
+                            <p>$<span id="total-invested">0</span></p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Active Loans</h4>
+                            <p><span id="active-loans">0</span></p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Avg. Return</h4>
+                            <p><span id="avg-return">0</span>%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chat Button -->
+    <div class="chat-btn" id="chat-btn">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <!-- Chat Popup -->
+    <div class="chat-popup" id="chat-popup">
+        <div class="chat-header">
+            <h4>Messages</h4>
+            <button class="close-chat" id="close-chat">&times;</button>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Messages will appear here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chat-input" placeholder="Type your message...">
+            <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Vendor Raise</h3>
+                    <p>Bridging the gap between small businesses and local lenders.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Vendor Raise. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dashboard.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
