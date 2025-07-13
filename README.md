@@ -1,7 +1,7 @@
 ## Vendor Raise
 
 Vendor Raise is a community-driven web platform that connects small business owners (vendors) with local lenders who are willing to provide small-scale financial support. This project is built for HackVortex 2025 – FinTech domain.
-
+# Deploy: https://vendoreraise.netlify.app/
 ## Project Idea
 
 Many vendors and small shop owners struggle to access funds from banks due to strict policies or lack of documents. Vendor Raise solves this by connecting them directly with community lenders willing to provide small loans with flexible terms.
